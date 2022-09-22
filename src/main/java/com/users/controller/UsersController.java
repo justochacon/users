@@ -19,9 +19,7 @@ public class UsersController {
     @PostMapping("/user")
     @ResponseStatus(HttpStatus.OK)
     public Object user() {
-    	
-    	String 
-
+        
         return usersService.user();
     }
 
